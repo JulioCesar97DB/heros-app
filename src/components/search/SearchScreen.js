@@ -23,7 +23,6 @@ export const SearchScreen = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    console.log(searchText)
     navigate(`?q=${searchText}`)
   }
 
@@ -32,7 +31,7 @@ export const SearchScreen = () => {
       <h1>Search</h1>
       <hr />
 
-      <div className="row">
+      <div className="row animate__animated animate__fadeIn">
         <div className="col-4">
           <h4>Search</h4>
           <hr />
